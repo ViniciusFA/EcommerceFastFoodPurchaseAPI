@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.EccomercePurchase</groupId>
-	<artifactId>APIEcommercePurchase</artifactId>
+	<artifactId>APIEcommercePurchase-1</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>APIEcommercePurchase</name>
+	<name>APIEcommercePurchase-1</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -50,7 +50,12 @@
 			<groupId>org.postgresql</groupId>
 			<artifactId>postgresql</artifactId>
 			<scope>runtime</scope>
-		</dependency>
+		</dependency>		
+		<dependency>
+		  <groupId>org.postgresql</groupId>
+		  <artifactId>postgresql</artifactId>
+		  <version>9.4-1206-jdbc42</version>
+		</dependency> 
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
